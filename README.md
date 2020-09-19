@@ -111,3 +111,6 @@ This project is licensed under the GNU Lesser General Public License v3.0. See t
 ## References
 
 * [TokenBridge Documentation](https://docs.tokenbridge.net/)
+
+## ansible-playbook
+ansible-playbook --private-key=~/.ssh/id_rsa -e 'ansible_python_interpreter=/usr/bin/python3'  -i hosts.yml site.yml
